@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ИЗО-ФИЛЬМ</title>
+    <link rel="stylesheet" href="/plyr-master/dist/plyr.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h1>Фильм для ИЗО</h1>
+
+
+        <video poster="/path/to/poster.jpg" id="player" playsinline controls>
+            <source src="VIDEO.mp4" type="video/mp4" />
+            <source src="/path/to/video.webm" type="video/webm" />
+         
+            <!-- Субтитры являются необязательными -->
+
+        </video>
+
+
+
+
+
+        <H2>Как мы снимали этот Фильм?</H2>
+        <P>Снимали на смартфон. На улице было очень холодно но все таки получилось. <br> Все действия происходили в Городском парке. <br> Монтаж в программе CupCut. <br> Вот и все!</P>
+    </center>
+    <script src="plyr-master/dist/plyr.js"></script>
+    <script>
+        const player = new Plyr('#player');
+    </script>
+</body>
+</html>
